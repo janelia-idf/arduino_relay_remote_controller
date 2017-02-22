@@ -1,0 +1,48 @@
+eeschema (2013-jul-07)-stable  >> Creation date: Wed 27 Aug 2014 01:39:19 PM EDT
+#Cmp ( order = Reference )
+| C1         1uF         
+| C2         0.1uF       
+| C3         0.1uF       
+| D1         LED         
+| D2         RELAY0      
+| D3         RELAY1      
+| D4         RELAY2      
+| D5         RELAY3      
+| D6         RELAY4      
+| D7         RELAY5      
+| D8         RELAY6      
+| D9         RELAY7      
+| D10        RELAY8      
+| D11        RELAY9      
+| D12        RELAY10     
+| D13        RELAY11     
+| D14        RELAY12     
+| D15        RELAY13     
+| D16        RELAY14     
+| D17        RELAY15     
+| P1         +24VDC      
+| P2         RJ45_DOUBLE 
+| P3         RJ45_DOUBLE 
+| R1         1k          
+| R2         1k          
+| R3         1k          
+| R4         1k          
+| R5         1k          
+| R6         1k          
+| R7         1k          
+| R8         1k          
+| R9         1k          
+| R10        1k          
+| R11        1k          
+| R12        1k          
+| R13        1k          
+| R14        1k          
+| R15        1k          
+| R16        1k          
+| R17        1k          
+| SHIELD1    ARDUINO_MEGA_SHIELD_FULL
+| U1         TLE723X     
+| U2         TLE723X     
+#End Cmp
+
+#End List

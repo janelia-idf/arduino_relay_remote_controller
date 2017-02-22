@@ -1,0 +1,173 @@
+
+(rules PCB arduino_relay_remote_controller
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 3146)
+    (layer_rule Front
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.2)
+    )
+    (layer_rule Back
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.5)
+    )
+  )
+  (rule
+    (width 203.2)
+    (clear 254.2)
+    (clear 101.6 (type smd_to_turn_gap))
+    (clear 63.6 (type smd_smd))
+  )
+  (padstack "Via[0-1]_889:635_um"
+    (shape
+      (circle Front 889.0 0.0 0.0)
+    )
+    (shape
+      (circle Back 889.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-1]_889:0_um"
+    (shape
+      (circle Front 889.0 0.0 0.0)
+    )
+    (shape
+      (circle Back 889.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_889:635_um" "Via[0-1]_889:635_um" default
+  )
+  (via 
+    "Via[0-1]_889:0_um" "Via[0-1]_889:0_um" default
+  )
+  (via 
+    "Via[0-1]_889:635_um-kicad_default" "Via[0-1]_889:635_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_889:0_um-kicad_default" "Via[0-1]_889:0_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_889:635_um-GND" "Via[0-1]_889:635_um" GND
+  )
+  (via 
+    "Via[0-1]_889:0_um-GND" "Via[0-1]_889:0_um" GND
+  )
+  (via 
+    "Via[0-1]_889:635_um-OUT" "Via[0-1]_889:635_um" OUT
+  )
+  (via 
+    "Via[0-1]_889:0_um-OUT" "Via[0-1]_889:0_um" OUT
+  )
+  (via 
+    "Via[0-1]_889:635_um-POWER" "Via[0-1]_889:635_um" POWER
+  )
+  (via 
+    "Via[0-1]_889:0_um-POWER" "Via[0-1]_889:0_um" POWER
+  )
+  (via 
+    "Via[0-1]_889:635_um-SIGNAL" "Via[0-1]_889:635_um" SIGNAL
+  )
+  (via 
+    "Via[0-1]_889:0_um-SIGNAL" "Via[0-1]_889:0_um" SIGNAL
+  )
+  (via_rule
+    default "Via[0-1]_889:635_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_889:635_um-kicad_default"
+  )
+  (via_rule
+    GND "Via[0-1]_889:635_um-GND"
+  )
+  (via_rule
+    OUT "Via[0-1]_889:635_um-OUT"
+  )
+  (via_rule
+    POWER "Via[0-1]_889:635_um-POWER"
+  )
+  (via_rule
+    SIGNAL "Via[0-1]_889:635_um-SIGNAL"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 203.2)
+    )
+    (circuit 
+      (use_layer Front Back)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 203.2)
+    )
+    (circuit 
+      (use_layer Front Back)
+    )
+  )
+  (class GND
+    GND
+    (clearance_class GND)
+    (via_rule GND)
+    (rule
+      (width 914.4)
+    )
+    (circuit 
+      (use_layer Front Back)
+    )
+  )
+  (class OUT
+    /OUT0 /OUT1 /OUT10 /OUT11 /OUT12 /OUT13 /OUT14 /OUT15
+    /OUT2 /OUT3 /OUT4 /OUT5 /OUT6 /OUT7 /OUT8 /OUT9
+    (clearance_class OUT)
+    (via_rule OUT)
+    (rule
+      (width 609.6)
+    )
+    (circuit 
+      (use_layer Front Back)
+    )
+  )
+  (class POWER
+    +5V VAA
+    (clearance_class POWER)
+    (via_rule POWER)
+    (rule
+      (width 914.4)
+    )
+    (circuit 
+      (use_layer Front Back)
+    )
+  )
+  (class SIGNAL
+    /CS /IN /MISO /MOSI /RST /SCK /SO1 "N-0000024"
+    "N-0000025" "N-0000026" "N-0000027" "N-0000028" "N-0000036" "N-0000041" "N-0000042" "N-0000044"
+    "N-0000045" "N-0000046" "N-0000047" "N-0000048" "N-0000049" "N-0000050" "N-0000051" "N-0000055"
+    (clearance_class SIGNAL)
+    (via_rule SIGNAL)
+    (rule
+      (width 406.4)
+    )
+    (circuit 
+      (use_layer Front Back)
+    )
+  )
+)

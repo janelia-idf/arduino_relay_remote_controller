@@ -1,0 +1,14 @@
+# Bill of Materials
+| quantity | part number      | ! | part    | description                      | vendor  |   cost |
+|----------+------------------+---+---------+----------------------------------+---------+--------|
+|       10 | 445-13383-1-ND   |   | C1      | CAP CER 1UF 25V 10% X7R 1210     | digikey |   0.84 |
+|       20 | 478-3586-1-ND    |   | C2-3    | CAP CER 0.1UF 50V 10% X7R 1210   | digikey |   0.39 |
+|      200 | 160-1179-1-ND    |   | D1-17   | LED GREEN CLEAR 0805 SMD         | digikey |   0.35 |
+|       10 | CP-063BH-ND      |   | P1      | CONN PWR JACK DC 2.5X5.5 8A T/H  | digikey |   1.78 |
+|       20 | RJSAE508002-ND   |   | P2-3    | CONN MOD JACK R/A 8P8C           | digikey |   3.15 |
+|      200 | 541-1.00KAACT-ND |   | R1-17   | RES 1.00K OHM 1/2W 1% 1210 SMD   | digikey |   0.29 |
+|       20 | SAM1055-50-ND    |   | SHIELD1 | CONN HDR VERT 50POS .100" SNGL   | digikey |   3.42 |
+|       20 | TLE7230GCT-ND    |   | U1      | IC SW SMART OCTAL LOWSIDE PDSO24 | digikey |   4.62 |
+|----------+------------------+---+---------+----------------------------------+---------+--------|
+|          |                  | # | total   |                                  |         | 170.95 |
+#+TBLFM: @10$7=(@I$quantity..@II$quantity)*(@I$cost..@II$cost);%.2f;N

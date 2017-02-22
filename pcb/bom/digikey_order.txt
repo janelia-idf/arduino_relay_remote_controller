@@ -1,0 +1,17 @@
+# Bill of Materials
+| ! | part    | description                      | vendor      | part number      | quantity |   cost |
+|---+---------+----------------------------------+-------------+------------------+----------+--------|
+|   | PCB     | arduino_relay_remote_control     | pcbuniverse | 1.3              |        1 |   1.00 |
+|   | C1      | CAP CER 1UF 25V 10% X7R 1210     | digikey     | 445-13383-1-ND   |        1 |   0.84 |
+|   | C2-3    | CAP CER 0.1UF 50V 10% X7R 1210   | digikey     | 478-3586-1-ND    |        2 |   0.39 |
+|   | D1-17   | LED GREEN CLEAR 0805 SMD         | digikey     | 160-1179-1-ND    |       17 |   0.35 |
+|   | P1      | CONN PWR JACK DC 2.5X5.5 8A T/H  | digikey     | CP-063BH-ND      |        1 |   1.78 |
+|   | P1      | POWER SUPPLY SWITCHER 101W 24V   | digikey     | 271-2731-ND      |        1 |  81.38 |
+|   | P2-3    | CONN MOD JACK R/A 8P8C           | digikey     | RJSAE508002-ND   |        2 |   3.15 |
+|   | R1-17   | RES 1.00K OHM 1/2W 1% 1210 SMD   | digikey     | 541-1.00KAACT-ND |       17 |   0.29 |
+|   | SHIELD1 | BOARD MCU MEGA2560               | digikey     | 1050-1018-ND     |        1 |  51.91 |
+|   | SHIELD1 | CONN HDR VERT 50POS .100" SNGL   | digikey     | SAM1055-50-ND    |        2 |   3.42 |
+|   | U1      | IC SW SMART OCTAL LOWSIDE PDSO24 | digikey     | TLE7230GCT-ND    |        2 |   4.62 |
+|---+---------+----------------------------------+-------------+------------------+----------+--------|
+| # | total   |                                  |             |                  |          | 170.95 |
+#+TBLFM: @13$7=(@I$quantity..@II$quantity)*(@I$cost..@II$cost);%.2f;N

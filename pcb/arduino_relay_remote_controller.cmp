@@ -1,0 +1,304 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Wed 27 Aug 2014 11:04:27 AM EDT
+
+BeginCmp
+TimeStamp = /53E130F8;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /5182CE9B;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E12D80;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /5187B461;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E12CF2;
+Reference = D2;
+ValeurCmp = RELAY0;
+IdModule  = LED0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E12CF8;
+Reference = D3;
+ValeurCmp = RELAY1;
+IdModule  = LED0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E12CEC;
+Reference = D4;
+ValeurCmp = RELAY2;
+IdModule  = LED0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E12CE6;
+Reference = D5;
+ValeurCmp = RELAY3;
+IdModule  = LED0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E12D04;
+Reference = D6;
+ValeurCmp = RELAY4;
+IdModule  = LED0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E12CFE;
+Reference = D7;
+ValeurCmp = RELAY5;
+IdModule  = LED0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E12D0A;
+Reference = D8;
+ValeurCmp = RELAY6;
+IdModule  = LED0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E12D10;
+Reference = D9;
+ValeurCmp = RELAY7;
+IdModule  = LED0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5183D21C;
+Reference = D10;
+ValeurCmp = RELAY8;
+IdModule  = LED0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5183D21B;
+Reference = D11;
+ValeurCmp = RELAY9;
+IdModule  = LED0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5183D21D;
+Reference = D12;
+ValeurCmp = RELAY10;
+IdModule  = LED0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5183D21E;
+Reference = D13;
+ValeurCmp = RELAY11;
+IdModule  = LED0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5183D1FD;
+Reference = D14;
+ValeurCmp = RELAY12;
+IdModule  = LED0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5183D1FE;
+Reference = D15;
+ValeurCmp = RELAY13;
+IdModule  = LED0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5183D1EF;
+Reference = D16;
+ValeurCmp = RELAY14;
+IdModule  = LED0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5183D1E4;
+Reference = D17;
+ValeurCmp = RELAY15;
+IdModule  = LED0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /504A5A0E;
+Reference = P1;
+ValeurCmp = +24VDC;
+IdModule  = DCJACK_2PIN_HIGHCURRENT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5254710F;
+Reference = P2;
+ValeurCmp = RJ45_DOUBLE;
+IdModule  = RJ45_2PORT_2ROW;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E14ED6;
+Reference = P3;
+ValeurCmp = RJ45_DOUBLE;
+IdModule  = RJ45_2PORT_2ROW;
+EndCmp
+
+BeginCmp
+TimeStamp = /5187B477;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FDF287;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FDF281;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FDF40B;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FDF405;
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FDF417;
+Reference = R6;
+ValeurCmp = 1k;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FDF411;
+Reference = R7;
+ValeurCmp = 1k;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FDF423;
+Reference = R8;
+ValeurCmp = 1k;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FDF41D;
+Reference = R9;
+ValeurCmp = 1k;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FDF42F;
+Reference = R10;
+ValeurCmp = 1k;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FDF429;
+Reference = R11;
+ValeurCmp = 1k;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FDF43B;
+Reference = R12;
+ValeurCmp = 1k;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FDF435;
+Reference = R13;
+ValeurCmp = 1k;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FDF447;
+Reference = R14;
+ValeurCmp = 1k;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FDF441;
+Reference = R15;
+ValeurCmp = 1k;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FDF453;
+Reference = R16;
+ValeurCmp = 1k;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FDF44D;
+Reference = R17;
+ValeurCmp = 1k;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /504F5474;
+Reference = SHIELD1;
+ValeurCmp = ARDUINO_MEGA_SHIELD_FULL;
+IdModule  = ARDUINO_MEGA_SHIELD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5254362E;
+Reference = U1;
+ValeurCmp = TLE723X;
+IdModule  = TLE723X;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E12D6C;
+Reference = U2;
+ValeurCmp = TLE723X;
+IdModule  = TLE723X;
+EndCmp
+
+EndListe

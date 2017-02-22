@@ -1,0 +1,33 @@
+.body {
+    width: 100%;
+    height: 100%;
+}
+.center {
+    text-align: center;
+}
+.button {
+    font-size: 2em;
+    margin: 1em;
+}
+.display {
+    margin: 1em 0em;
+}
+.slider {
+    width: 50%;
+    margin: auto;
+}
+table {
+    width: 100%;
+    height: 100%;
+}
+td {
+    padding: 0.5em;
+    text-align: center;
+}
+.ui-button {
+    width: 100%;
+    min-height: 3em;
+}
+#toggleRelays {
+    width: 100%;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Arduino Relay Remote Controller</title>
+    <meta http-equiv="pragma" content="no-cache">
+    <link rel="stylesheet" href="static/jquery-ui-1.10.4.custom.min.css?v=1" type="text/css" />
+    <link rel="stylesheet" href="static/style.css?v=4" type="text/css" />
+    <script type="text/javascript" src="/static/js/jquery/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery/jquery-ui-1.10.4.custom.min.js"></script>
+    <script type="text/javascript" src="/static/js/sijax/sijax.js"></script>
+    <script type="text/javascript">
+      {{ g.sijax.get_js()|safe }}
+    </script>
+  </head>
+
+  <body>
+    <div class="center">
+      <h2>Toggle Relays</h2>
+      <div id="toggleRelays">
+        <table>
+          <tr>
+            <td><input type="radio" id="relay7" name="relay" value="7" /><label for="relay7">Relay 7</label></td>
+            <td><input type="radio" id="relay6" name="relay" value="6" /><label for="relay6">Relay 6</label></td>
+            <td><input type="radio" id="relay5" name="relay" value="5" /><label for="relay5">Relay 5</label></td>
+            <td><input type="radio" id="relay4" name="relay" value="4" /><label for="relay4">Relay 4</label></td>
+            <td><input type="radio" id="relay3" name="relay" value="3" /><label for="relay3">Relay 3</label></td>
+            <td><input type="radio" id="relay2" name="relay" value="2" /><label for="relay2">Relay 2</label></td>
+            <td><input type="radio" id="relay1" name="relay" value="1" /><label for="relay1">Relay 1</label></td>
+            <td><input type="radio" id="relay0" name="relay" value="0" /><label for="relay0">Relay 0</label></td>
+          </tr>
+          <tr>
+            <td><input type="radio" id="relay15" name="relay" value="15" /><label for="relay15">Relay 15</label></td>
+            <td><input type="radio" id="relay14" name="relay" value="14" /><label for="relay14">Relay 14</label></td>
+            <td><input type="radio" id="relay13" name="relay" value="13" /><label for="relay13">Relay 13</label></td>
+            <td><input type="radio" id="relay12" name="relay" value="12" /><label for="relay12">Relay 12</label></td>
+            <td><input type="radio" id="relay11" name="relay" value="11" /><label for="relay11">Relay 11</label></td>
+            <td><input type="radio" id="relay10" name="relay" value="10" /><label for="relay10">Relay 10</label></td>
+            <td><input type="radio" id="relay9" name="relay" value="9" /><label for="relay9">Relay 9</label></td>
+            <td><input type="radio" id="relay8" name="relay" value="8" /><label for="relay8">Relay 8</label></td>
+          </tr>
+        </table>
+      </div>
+      <button class="button" id="setAllRelaysOn">Set All Relays On</button>
+      <button class="button" id="setAllRelaysOff">Set All Relays Off</button>
+    </div>
+    <script type="text/javascript" src="/static/js/scripts/script.js"></script>
+  </body>
+</html>
